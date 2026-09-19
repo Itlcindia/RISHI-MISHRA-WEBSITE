@@ -1,0 +1,291 @@
+{
+  "entities": {
+    "News": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "News",
+      "type": "object",
+      "description": "Represents a news article or update on the Rishi Mishra website.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the News entity."
+        },
+        "titleEn": {
+          "type": "string",
+          "description": "Title of the news article in English."
+        },
+        "titleHi": {
+          "type": "string",
+          "description": "Title of the news article in Hindi."
+        },
+        "contentHi": {
+          "type": "string",
+          "description": "Content of the news article in Hindi."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the image associated with the news article."
+        },
+        "timestamp": {
+          "type": "string",
+          "description": "Timestamp of when the news article was published.  (ISO 8601 format)",
+          "format": "date-time"
+        },
+        "category": {
+          "type": "string",
+          "description": "Category of the news article."
+        }
+      },
+      "required": [
+        "titleEn",
+        "titleHi",
+        "contentHi",
+        "imageUrl",
+        "timestamp",
+        "category"
+      ]
+    },
+    "Event": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Event",
+      "type": "object",
+      "description": "Represents an event related to Rishi Mishra or Sonchiraiya NGO.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Event entity."
+        },
+        "eventName": {
+          "type": "string",
+          "description": "Name of the event."
+        },
+        "date": {
+          "type": "string",
+          "description": "Date of the event. (ISO 8601 format)",
+          "format": "date-time"
+        },
+        "location": {
+          "type": "string",
+          "description": "Location of the event."
+        },
+        "descriptionHi": {
+          "type": "string",
+          "description": "Description of the event in Hindi."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the image associated with the event."
+        }
+      },
+      "required": [
+        "eventName",
+        "date",
+        "location",
+        "descriptionHi",
+        "imageUrl"
+      ]
+    },
+    "Message": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Message",
+      "type": "object",
+      "description": "Represents a message submitted through the contact form.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the person sending the message."
+        },
+        "email": {
+          "type": "string",
+          "description": "Email address of the person sending the message.",
+          "format": "email"
+        },
+        "message": {
+          "type": "string",
+          "description": "The message content."
+        },
+        "sentAt": {
+          "type": "string",
+          "description": "Timestamp of when the message was sent.  (ISO 8601 format)",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "name",
+        "email",
+        "message",
+        "sentAt"
+      ]
+    },
+    "Initiative": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Initiative",
+      "type": "object",
+      "description": "Represents a core initiative or program.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Initiative entity."
+        },
+        "value": {
+          "type": "string",
+          "description": "A short identifier for the initiative, used for tabs."
+        },
+        "titleKey": {
+          "type": "string",
+          "description": "The translation key for the initiative's short title (for tabs)."
+        },
+        "contentTitleKey": {
+          "type": "string",
+          "description": "The translation key for the initiative's main content title."
+        },
+        "descriptionKey": {
+          "type": "string",
+          "description": "The translation key for the initiative's description."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the image associated with the initiative."
+        },
+        "imageHint": {
+          "type": "string",
+          "description": "Hint for AI image generation/search."
+        },
+        "order": {
+          "type": "number",
+          "description": "A number to sort the initiatives."
+        }
+      },
+      "required": [
+        "value",
+        "titleKey",
+        "contentTitleKey",
+        "descriptionKey",
+        "imageUrl",
+        "imageHint",
+        "order"
+      ]
+    },
+    "HeroImage": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Hero Image",
+      "type": "object",
+      "description": "Represents an image displayed in the hero carousel on the homepage.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Hero Image entity."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the hero image."
+        },
+        "description": {
+          "type": "string",
+          "description": "A brief description of the image for alt text."
+        },
+        "imageHint": {
+          "type": "string",
+          "description": "A hint for AI image generation or search."
+        },
+        "order": {
+          "type": "number",
+          "description": "A number to sort the hero images in the carousel."
+        }
+      },
+      "required": [
+        "imageUrl",
+        "description",
+        "imageHint",
+        "order"
+      ]
+    },
+    "GalleryImage": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Gallery Image",
+      "type": "object",
+      "description": "Represents an image in the main gallery.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Gallery Image."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the image."
+        },
+        "captionEn": {
+          "type": "string",
+          "description": "Caption for the image in English."
+        },
+        "captionHi": {
+          "type": "string",
+          "description": "Caption for the image in Hindi."
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Timestamp of when the image was added.",
+          "format": "date-time"
+        },
+        "actionLink1": {
+          "type": "string",
+          "description": "Optional custom action link for the gallery image."
+        },
+        "actionLink2": {
+          "type": "string",
+          "description": "Optional second custom action link for the gallery image."
+        }
+      },
+      "required": [
+        "imageUrl",
+        "captionEn",
+        "captionHi",
+        "createdAt"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "/news/{newsId}": {
+      "schema": {
+        "$ref": "#/entities/News"
+      },
+      "description": "Stores news articles. Includes fields for title (English and Hindi), content (Hindi), image URL, timestamp, and category."
+    },
+    "/events/{eventId}": {
+      "schema": {
+        "$ref": "#/entities/Event"
+      },
+      "description": "Stores event details. Includes fields for event name, date, location, description (Hindi), and image URL."
+    },
+    "/messages/{messageId}": {
+      "schema": {
+        "$ref": "#/entities/Message"
+      },
+      "description": "Stores messages submitted through the contact form. Includes fields for name, email, message, and sentAt timestamp."
+    },
+    "/initiatives/{initiativeId}": {
+      "schema": {
+        "$ref": "#/entities/Initiative"
+      },
+      "description": "Stores details about core initiatives. Includes fields for titles, descriptions, images, and ordering."
+    },
+    "/heroImages/{heroImageId}": {
+      "schema": {
+        "$ref": "#/entities/HeroImage"
+      },
+      "description": "Stores images for the homepage hero carousel. Includes fields for the image URL, description, hint, and order."
+    },
+    "/gallery/{galleryImageId}": {
+      "schema": {
+        "$ref": "#/entities/GalleryImage"
+      },
+      "description": "Stores images for the main photo gallery. Includes URL, bilingual captions, and a timestamp."
+    }
+  }
+}

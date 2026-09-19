@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 145 63% 29%; /* Dark Green */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 145 30% 98%; /* Very light green background */
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 142 76% 36%; /* Emerald Accent */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142 76% 36%;
+    --radius: 1.5rem;
+    --saffron: 27 100% 60%;
+    --saffron-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  section {
+    @apply w-full py-16 md:py-24;
+  }
+}
+
+@layer utilities {
+  .shadow-premium {
+    box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Green Shadow Glow Utilities */
+  .shadow-green {
+    box-shadow: 0 10px 30px -5px hsla(145, 63%, 29%, 0.15);
+  }
+  
+  .hover-shadow-green:hover {
+    box-shadow: 0 25px 50px -12px hsla(145, 63%, 29%, 0.25);
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .hover-lift:hover {
+    @apply -translate-y-2;
+  }
+
+  .font-hindi {
+    font-family: var(--font-hind), sans-serif;
+  }
+
+  .text-saffron {
+    color: hsl(var(--saffron));
+  }
+  
+  .bg-saffron {
+    background-color: hsl(var(--saffron));
+  }
+}

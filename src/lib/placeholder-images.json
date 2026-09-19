@@ -1,0 +1,170 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-portrait",
+      "description": "Professional portrait of Rishi Mishra",
+      "imageUrl": "/h.jpeg",
+      "imageHint": "indian politician"
+    },
+    {
+      "id": "about-page-main",
+      "description": "Rishi Mishra addressing a crowd",
+      "imageUrl": "/h.jpeg",
+      "imageHint": "public speaking"
+    },
+    {
+      "id": "initiative-ngo",
+      "description": "Sonchiraiya NGO volunteers working",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2NpYWwlMjB3b3JrfGVufDB8fHx8MTc2OTU3OTgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social work"
+    },
+    {
+      "id": "initiative-kisan",
+      "description": "Rishi Mishra with farmers",
+      "imageUrl": "https://images.unsplash.com/photo-1623211269755-569fec0536d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBmYXJtZXJ8ZW58MHx8fHwxNzY5NTY2NDAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian farmer"
+    },
+    {
+      "id": "initiative-youth",
+      "description": "Youth and education event",
+      "imageUrl": "https://images.unsplash.com/photo-1686624386665-4cd01b96d0f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkZW50cyUyMGluZGlhfGVufDB8fHx8MTc2OTU3OTgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students india"
+    },
+    {
+      "id": "initiative-welfare",
+      "description": "Public welfare program in action",
+      "imageUrl": "https://images.unsplash.com/photo-1761839258605-d1b118266ccc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tbXVuaXR5JTIwaGVscHxlbnwwfHx8fDE3Njk1MjEzMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community help"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Photo from a public rally",
+      "imageUrl": "/h.jpeg",
+      "imageHint": "political rally"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Photo from a press conference",
+      "imageUrl": "/h.jpeg",
+      "imageHint": "press conference"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Photo from an NGO event",
+      "imageUrl":"/l.jpeg",
+      "imageHint": "ngo event"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Meeting with local residents",
+      "imageUrl": "/h.jpeg",
+      "imageHint": "community meeting"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Event with farmers",
+      "imageUrl": "i.jpeg",
+      "imageHint": "indian farmers"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Inaugurating a local project",
+      "imageUrl": "https://images.unsplash.com/photo-1761475456154-6c5373bbd2bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmF1Z3VyYXRpb24lMjBjZXJlbW9ueXxlbnwwfHx8fDE3Njk1Nzk4MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "inauguration ceremony"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Youth interaction session",
+      "imageUrl": "j.jpeg",
+      "imageHint": "youth interaction"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Legal aid camp",
+      "imageUrl": "k.jpeg",
+      "imageHint": "legal aid"
+    },
+    {
+      "id": "video-placeholder-1",
+      "description": "Public Address on Community Development",
+      "imageUrl": "https://images.unsplash.com/photo-1584013979505-67ba6e45cfda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2aWRlbyUyMHBsYXl8ZW58MHx8fHwxNzY5NTUxMzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video play",
+      "youtubeId": "rokGy0huYEA"
+    },
+    {
+      "id": "video-placeholder-2",
+      "description": "Highlights from Sonchiraiya NGO's recent drive",
+      "imageUrl": "https://images.unsplash.com/photo-1729160731582-edcf5995cc3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aWRlbyUyMHBsYXl8ZW58MHx8fHwxNzY5NTUxMzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video play",
+      "youtubeId": "zTDeA22b5s4"
+    },
+    {
+      "id": "video-placeholder-3",
+      "description": "Interview on farmer's rights and policies",
+      "imageUrl": "https://images.unsplash.com/photo-1580744515502-bd922b737d06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2aWRlbyUyMHBsYXl8ZW58MHx8fHwxNzY5NTUxMzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video play",
+      "youtubeId": "J---aiyznGQ"
+    },
+    {
+      "id": "video-placeholder-4",
+      "description": "Inauguration of a new youth center",
+      "imageUrl": "https://images.unsplash.com/photo-1584013908539-52804888b5f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2aWRlbyUyMHBsYXl8ZW58MHx8fHwxNzY5NTUxMzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video play",
+      "youtubeId": "Scq2p5AIjsU"
+    },
+    {
+      "id": "news-1",
+      "description": "Image for a news article",
+      "imageUrl": "https://images.unsplash.com/photo-1742805382149-3c2f0cd0f300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxicmVha2luZyUyMG5ld3N8ZW58MHx8fHwxNzY5NTc5ODA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "breaking news"
+    },
+    {
+      "id": "news-2",
+      "description": "Image for a news article",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YW5ub3VuY2VtZW50fGVufDB8fHx8MTc2OTU3OTgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "announcement"
+    },
+    {
+      "id": "news-3",
+      "description": "Image for a news article",
+      "imageUrl": "https://images.unsplash.com/photo-1650041467686-549600336bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHVibGljJTIwbm90aWNlfGVufDB8fHx8MTc2OTU3OTgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "public notice"
+    },
+    {
+      "id": "testimonial-person-1",
+      "description": "Portrait of a grateful resident",
+      "imageUrl": "https://images.unsplash.com/photo-1599377884021-93c240d431c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjB3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDAwMDAwMHww&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "indian woman portrait"
+    },
+    {
+      "id": "testimonial-person-2",
+      "description": "Portrait of a hopeful farmer",
+      "imageUrl": "https://images.unsplash.com/photo-1619881199349-35b13c73a6b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzAwMDAwMDF8MA&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "indian man portrait"
+    },
+    {
+      "id": "testimonial-person-3",
+      "description": "Portrait of a parent",
+      "imageUrl": "https://images.unsplash.com/photo-1605364239853-f474de24a3e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjB3b21hbiUyMHNtaWxlfGVufDB8fHx8MTc3MDAwMDAwMnww&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "indian woman smile"
+    },
+    {
+      "id": "event-image-1",
+      "description": "A public gathering for a health camp",
+      "imageUrl": "https://images.unsplash.com/photo-1698139214412-3352d1d68efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwdWJsaWMlMjBoZWFsdGglMjBpbmRpYXxlbnwwfHx8fDE3Njk1ODMxMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "public health india"
+    },
+    {
+      "id": "event-image-2",
+      "description": "A seminar for youth education",
+      "imageUrl": "https://images.unsplash.com/photo-1719159381916-062fa9f435a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlZHVjYXRpb24lMjBzZW1pbmFyJTIwaW5kaWF8ZW58MHx8fHwxNzY5NTgzMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education seminar india"
+    },
+    {
+      "id": "event-image-3",
+      "description": "A meeting with local farmers",
+      "imageUrl": "https://images.unsplash.com/photo-1682655173886-0abb2c4c06da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYXJtZXJzJTIwbWVldGluZ3xlbnwwfHx8fDE3Njk1ODMxMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farmers meeting"
+    }
+  ]
+}

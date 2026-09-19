@@ -1,0 +1,43 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // News collection: Publicly readable, admin-only write
+    match /news/{newsId} {
+      allow get, list: if true;
+      allow write: if request.auth != null; // Rule will be updated to check for admin role
+    }
+
+    // Events collection: Publicly readable, admin-only write
+    match /events/{eventId} {
+      allow get, list: if true;
+      allow write: if request.auth != null; // Rule will be updated to check for admin role
+    }
+
+    // Messages collection: Publicly writable for contact form, admin-only read
+    match /messages/{messageId} {
+      allow create: if true;
+      allow read, update, delete: if request.auth != null; // Rule will be updated to check for admin role
+    }
+
+    // Initiatives collection: Publicly readable, admin-only write
+    match /initiatives/{initiativeId} {
+      allow get, list: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Hero Images collection: Publicly readable, admin-only write
+    match /heroImages/{heroImageId} {
+      allow get, list: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Gallery Images collection: Publicly readable, admin-only write
+    match /gallery/{galleryImageId} {
+      allow get, list: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
